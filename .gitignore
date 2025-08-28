@@ -1,0 +1,28 @@
+# AWS Security Monitor - Ignore sensitive files
+
+# Log files
+*.log
+aws_security_monitor.log
+
+# Pickle files with cached data
+*.pkl
+processed_events.pkl
+
+# AWS credentials and config
+.aws/
+critical-instances.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+/tmp/
+*.tmp
+
+# CSV output files (may contain sensitive data)
+*.csv
+
+# Email config files with sensitive data
+email-config.txt
